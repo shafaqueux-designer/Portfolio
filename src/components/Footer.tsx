@@ -2,15 +2,13 @@ import { motion } from "framer-motion";
 import { Mail, Phone, ExternalLink, ArrowUpRight } from "lucide-react";
 
 const socialLinks = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/kushagra-arora-29236621b/" },
- // { label: "Behance", href: "https://www.behance.net/kushagraarora3" },
-  { label: "Resume", href: "https://drive.google.com/file/d/1neawC_ymwsC6vBbf0-CArlv2KbpAPrR1/view?usp=sharing" },
-  //{ label: "Notion", href: "https://delicate-salesman-ef8.notion.site/Hey-I-m-Kushagra-Arora-UI-UX-Designer-based-in-Delhi-2146f2ef586f800390f5ded8d365bee1" },
-];
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/mohammad-shafaque-7109761aa/" },
+  { label: "Resume", href: "https://drive.google.com/file/d/1FR4KAWwzakdJV3UUvoeZ8pWI7EjE52ln/view?usp=sharing" },
+  { label: "Portfolio in PDF", href: "https://drive.google.com/file/d/1Nyyr8cGy9ZReuCedZC3-lXbmItFVtoke/view?usp=sharing" },];
 
 const marqueeTools = [
-  "Figma", "Framer", "Photoshop", "Illustrator", "InDesign",
-  "Adobe XD", "Canva", "Notion", "Protopie", "Miro", "Zeplin",
+  "Figma", "Framer", "Sketch", "Adobe XD", "Adobe Photoshop", " Adobe Illustrator", "Adobe InDesign",
+  "Canva", "Notion", "Protopie", "Miro", "Zeplin", "Slack", "Microsoft PowerPoint",
 ];
 
 const Footer = () => {
@@ -50,7 +48,7 @@ const Footer = () => {
             together<span className="text-primary">.</span>
           </h2>
           <motion.a
-            href="mailto:kushagraarora2727@gmail.com"
+            href="mailto:shafaqueansari4@gmail.com"
             className="inline-flex items-center gap-3 mt-10 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-sm hover:brightness-110 transition-all group"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
@@ -67,13 +65,13 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           {/* Contact */}
           <div className="flex flex-wrap items-center gap-5">
-            <a href="mailto:kushagraarora2727@gmail.com" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-              <Mail size={14} /> kushagraarora2727@gmail.com
+            <a href="mailto:shafaqueansari4@gmail.com" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Mail size={14} /> shafaqueansari4@gmail.com
             </a>
-            <a href="tel:+919935156912" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-              <Phone size={14} /> +91 9935156912
+            <a href="tel:+919534008586" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Phone size={14} /> +91 9534008586
             </a>
-            <a href="https://wa.me/917007826069" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://wa.me/919534008586" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
               <ExternalLink size={14} /> WhatsApp
             </a>
           </div>
@@ -95,8 +93,8 @@ const Footer = () => {
         </div>
 
         <div className="mt-6 text-center">
-          <p className="text-xs text-muted-foreground/40">
-            © {new Date().getFullYear()} Kushagra Arora. Designed with passion.
+          <p className="text-xs text-muted-foreground/80">
+            © {new Date().getFullYear()} Mohammad Shafaque. Thoughtfully designed, driven by passion.
           </p>
         </div>
       </div>
