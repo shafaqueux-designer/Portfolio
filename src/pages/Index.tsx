@@ -8,14 +8,15 @@ const skills = [
 ];
 
 const coreSkills = [
-  "Product Strategy", "User Research", "User Personas", "Information Architecture", "User Flows", "Wireframing", "Prototyping", "Interaction Design", "Usability Testing", "A/B Testing", "Design Systems", "Responsive Design", "Accessibility", "Visual Design", "Typography", "Color Theory", "Layout Design", "Brand Identity", "Creative Problem-Solving", "Design Thinking", "Cross-functional Collaboration", "Stakeholder Communication", "Presentation Skills", "Attention to Detail"
+  "Data Analysis", "Product Strategy", "User Research", "User Personas", "Information Architecture", "User Flows", "Wireframing", "Prototyping", "Interaction Design", "Usability Testing", "A/B Testing", "Design Systems", "Responsive Design", "Accessibility", "Visual Design", "Typography", "Color Theory", "Layout Design", "Brand Identity", "Creative Problem-Solving", "Design Thinking", "Cross-functional Collaboration", "Stakeholder Communication", "Presentation Skills", "Attention to Detail"
 ];
 
 const education = [
-  { title: "UI/UX Design Certification", place: "Dice Academy", period: "Mar 2023 – Sept 2023" },
-  { title: "Graphic Design Certification", place: "Dice Academy", period: "Jul 2022 – Jan 2023" },
-  { title: "B.Tech (Computer Science)", place: "RGPV", period: "Jun 2022 – May 2026" },
-  { title: "B.Tech (Computer Science)", place: "RGPV", period: "Jun 2022 – May 2026" },
+  { title: "UI/UX Design Certification", place: "Dice Academy, New Delhi", period: "Aug 2022 – Feb 2023" },
+  { title: "Graphic Design Certification", place: "Udemy, Online", period: "Mar 2020" },
+  { title: "Bachelor in Computer Applications (BCA) ", place: "Manipal University, Jaipur", period: "2021 – 2024" },
+  { title: "Intermediate 12th (CBSE)", place: "K.M. Academy", period: "2018 – 2020" },
+  { title: "Secondary School 10th (CBSE)", place: "Nath Public School", period: "2018" },
 ];
 
 const Work = [
@@ -66,7 +67,7 @@ const Index = () => {
             Product Designer · UI/UX Designer
           </motion.p>
           <motion.h1 variants={fadeUp} custom={1} className="text-5xl sm:text-7xl font-display font-bold text-foreground leading-[1.1]">
-            Hey, I'm
+            Hey, I<span className="text-primary">'</span>m
             <br />
             Mohammad Shafaque<span className="text-primary">.</span>
           </motion.h1>
@@ -161,8 +162,6 @@ const Index = () => {
         </motion.div>
       </motion.section>
 
-{/* "Figma", "Framer", "Protopie", "Sketch", "Adobe XD", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Canva", "Microsoft PowerPoint" */}
-
       {/* Experience */}
       <motion.section
         className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-12"
@@ -194,9 +193,9 @@ const Index = () => {
                     </div>
                 <p className="text-sm text-muted-foreground mt-1">
                   {Work.company} 
-                  <span className="mx-4">|</span>
+                  <span className="mx-3">|</span>
                   {Work.place}
-                  <span className="mx-4">|</span>
+                  <span className="mx-3">|</span>
                   {Work.period}
                   </p>
               </div>
@@ -218,8 +217,10 @@ const Index = () => {
               >
                 <h3 className="font-display font-medium text-foreground">{edu.title}</h3>
                 <p className="text-sm text-muted-foreground mt-1">
-                  {edu.place} · {edu.period}
-                </p>
+                  {edu.place} 
+                  <span className="mx-3">|</span>
+                  {edu.period}
+                  </p>
               </div>
             ))}
           </div>

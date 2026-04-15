@@ -13,14 +13,75 @@ export interface WorkItem {
 
 export const works: WorkItem[] = [
 
-  // 11. Web temp
+  //App temp
   // ------------------------------------------
   {
     id: "branding-premium-credit-card",
     title: "Premium Credit Card Branding",
     description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
     image: dragonimage,
-    //images: [dragonimage],
-    category: "Webbbbb",
+    images: [dragonimage],
+    category: "Mobile App",
   },
+    //Web temp
+  // ------------------------------------------
+    {
+    id: "branding-premium-credit-card",
+    title: "Premium Credit Card Branding",
+    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
+    image: dragonimage,
+    images: [dragonimage],
+    category: "Website",
+  },
+  //Dashboard temp
+  // ------------------------------------------
+    {
+    id: "branding-premium-credit-card",
+    title: "Premium Credit Card Branding",
+    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
+    image: dragonimage,
+    images: [dragonimage],
+    category: "Dashboard",
+  },
+  //Social Media temp
+  // ------------------------------------------
+    {
+    id: "branding-premium-credit-card",
+    title: "Premium Credit Card Branding",
+    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
+    image: dragonimage,
+    images: [dragonimage],
+    category: "Social Media",
+  },
+  //Magazines temp
+  // ------------------------------------------
+    {
+    id: "branding-premium-credit-card",
+    title: "Premium Credit Card Branding",
+    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
+    image: dragonimage,
+    images: [dragonimage],
+    category: "Magazine",
+  },
+  //eBook temp
+  // ------------------------------------------
+    {
+    id: "branding-premium-credit-card",
+    title: "Premium Credit Card Branding",
+    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
+    image: dragonimage,
+    images: [dragonimage],
+    category: "eBooks",
+  },
+  //Presentation temp
+  // ------------------------------------------
+    {
+    id: "branding-premium-credit-card",
+    title: "Premium Credit Card Branding",
+    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
+    image: dragonimage,
+    images: [dragonimage],
+    category: "Presentations",
+  },
+
 ];
