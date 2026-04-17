@@ -22,7 +22,7 @@ const Work = () => {
           My Work
         </h1>
         <p className="mt-3 text-muted-foreground max-w-lg">
-          A collection of design work across branding, digital experiences, and visual storytelling. Explore each project to see the process and impact.
+          A collection of thoughtfully crafted work across different design areas, each project driven by purpose, clarity, and user needs. From concept to execution, I focus on creating experiences that are not only visually engaging but also intuitive and impactful.
         </p>
 
         {/* Category filters */}
