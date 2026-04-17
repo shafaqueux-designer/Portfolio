@@ -12,9 +12,9 @@ const coreSkills = [
 ];
 
 const education = [
+  { title: "Bachelor in Computer Applications (BCA) ", place: "Manipal University, Jaipur", period: "2021 – 2024" },
   { title: "UI/UX Design Certification", place: "Dice Academy, New Delhi", period: "Aug 2022 – Feb 2023" },
   { title: "Graphic Design Certification", place: "Udemy, Online", period: "Mar 2020" },
-  { title: "Bachelor in Computer Applications (BCA) ", place: "Manipal University, Jaipur", period: "2021 – 2024" },
   { title: "Intermediate 12th (CBSE)", place: "K.M. Academy", period: "2018 – 2020" },
   { title: "Secondary School 10th (CBSE)", place: "Nath Public School", period: "2018" },
 ];
