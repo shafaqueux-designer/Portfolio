@@ -35,7 +35,7 @@ const socialLinks = [
 
 const stats = [
   { value: "5.5+", label: "Years of Experience" },
-  { value: "25+", label: "Ux/Ui Design Projects" },
+  { value: "35+", label: "Ux/Ui Design Projects" },
   { value: "300+", label: "Graphic Design Projects" },
 ];
 
