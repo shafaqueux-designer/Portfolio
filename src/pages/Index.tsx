@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, ExternalLink, Sparkles } from "lucide-react";
+import Works from "./Works";
 
 const skills = [
   "Figma", "Framer", "Sketch", "Adobe XD", "Adobe Photoshop", " Adobe Illustrator", "Adobe InDesign",
@@ -141,7 +142,7 @@ const Index = () => {
             </div>
             <p className="text-foreground font-display font-medium">Open to full-time roles</p>
             <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-            Open to full-time opportunities in service-based and product-based organizations, seeking a UI/UX Designer role where I can contribute to user-centered design solutions. Interested in working across the complete design lifecycle, collaborating with cross-functional teams, and delivering scalable, intuitive, and high-quality digital experiences.
+              Open to full-time opportunities in service-based and product-based organizations, seeking a UI/UX Designer role where I can contribute to user-centered design solutions. Interested in working across the complete design lifecycle, collaborating with cross-functional teams, and delivering scalable, intuitive, and high-quality digital experiences.
             </p>
           </div>
 
@@ -162,6 +163,10 @@ const Index = () => {
         </motion.div>
       </motion.section>
 
+
+      <div>
+        <Works />
+      </div>
       {/* Experience */}
       <motion.section
         className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-12"
@@ -177,7 +182,7 @@ const Index = () => {
           {/* <p className="text-muted-foreground leading-relaxed">
             3+ years of design experience shaping comprehensive brand identities and crafting high-impact print and digital marketing assets. Proven track record of managing targeted social media and email campaigns to drive audience engagement and elevate brand visibility across logos, editorial layouts, brochures, web interfaces, and custom merchandise.
           </p> */}
-           <div className="grid gap-4 mt-6">
+          <div className="grid gap-4 mt-6">
             {Work.map((Work) => (
               <div
                 key={Work.title}
@@ -186,18 +191,18 @@ const Index = () => {
                 <div className="flex justify-between items-center">
                   <h3 className="font-display font-medium text-foreground">
                     {Work.title}
-                     </h3>
+                  </h3>
                   <h3 className="font-display font-light text-foreground/60">
                     {Work.mode}
-                    </h3>
-                    </div>
+                  </h3>
+                </div>
                 <p className="text-sm text-muted-foreground mt-1">
-                  {Work.company} 
+                  {Work.company}
                   <span className="mx-3">|</span>
                   {Work.place}
                   <span className="mx-3">|</span>
                   {Work.period}
-                  </p>
+                </p>
               </div>
             ))}
           </div>
@@ -217,10 +222,10 @@ const Index = () => {
               >
                 <h3 className="font-display font-medium text-foreground">{edu.title}</h3>
                 <p className="text-sm text-muted-foreground mt-1">
-                  {edu.place} 
+                  {edu.place}
                   <span className="mx-3">|</span>
                   {edu.period}
-                  </p>
+                </p>
               </div>
             ))}
           </div>
