@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, ExternalLink, Sparkles } from "lucide-react";
-import Works from "./Works";
+// import Works from "./Works";
 
 const skills = [
   "Figma", "Framer", "Sketch", "Adobe XD", "Adobe Photoshop", " Adobe Illustrator", "Adobe InDesign",
@@ -163,10 +163,10 @@ const Index = () => {
         </motion.div>
       </motion.section>
 
-
+{/* 
       <div>
         <Works />
-      </div>
+      </div> */}
       {/* Experience */}
       <motion.section
         className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-12"
