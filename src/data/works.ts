@@ -7,6 +7,14 @@ import eyesetu4 from "@/assets/App/Eye Setu/5.png"
 
 // --- App OYN ---
 import oyn1 from "@/assets/App/OYN/1.png"
+import oyn2 from "@/assets/App/OYN/2.png"
+import oyn3 from "@/assets/App/OYN/3.png"
+import oyn4 from "@/assets/App/OYN/4.png"
+import oyn5 from "@/assets/App/OYN/5.png"
+import oyn6 from "@/assets/App/OYN/6.png"
+
+// --- App OYN ---
+import pulse1 from "@/assets/App/Pulse/1.png"
 
 // --- App Eyesetu ---
 import dragonimage from "@/assets/web/Gemini_Generated_Image_6wvcbn6wvcbn6wvc.png"
@@ -38,10 +46,21 @@ export const works: WorkItem[] = [
     title: "OYN - Own Your Nutritionist",
     description: "Own Your Nutritionist is a unified platform that connects users with certified nutritionists, personalized diet plans, and easy consultation booking. It also offers healthy food ordering from home kitchens, creating a simple and complete wellness experience. I designed Own Your Nutritionist, a comprehensive wellness and food-tech platform with a clean, intuitive interface and scalable architecture. The platform enables seamless nutritionist discovery along with instant and scheduled consultations through chat, voice, and video. It also supports personalized diet plans and subscription-based nutrition programs, helping users manage their health more effectively.",
     image: oyn1,
-    images: [dragonimage],
+    images: [oyn2, oyn3, oyn4, oyn5, oyn6],
     category: "Mobile App",
   },
-    //Web temp
+      {
+    id: "App",
+    title: "Pulse - Dietitian",
+    description: "This project focuses on building a complete nutrition consultation ecosystem that bridges the gap between clients and certified dietitians. It enables users to book consultations, track health progress, and receive personalized nutrition plans while ensuring a smooth and secure experience across mobile and web platforms. The platform supports multiple user roles including clients, dietitians, and administrators, ensuring efficient management of appointments, payments, and content.",
+    image: pulse1,
+    images: [oyn2, oyn3, oyn4, oyn5, oyn6],
+    category: "Mobile App",
+  },
+  
+  
+  
+  //Web temp
   // ------------------------------------------
     {
     id: "branding-premium-credit-card",
