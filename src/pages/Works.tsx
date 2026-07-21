@@ -18,10 +18,10 @@ const Works = () => {
   return (
     <div className="min-h-screen pt-24 pb-16">
       <div className="px-6 sm:px-12 mb-8">
-        {/* <h1 className="text-4xl sm:text-5xl font-display font-bold text-foreground">
-          My Work
+        <h1 className="text-4xl sm:text-5xl font-display font-bold text-foreground">
+          Latest Work
         </h1>
-        <p className="mt-3 text-muted-foreground max-w-lg">
+        {/* <p className="mt-3 text-muted-foreground max-w-lg">
           A collection of thoughtfully crafted work across different design areas, each project driven by purpose, clarity, and user needs. From concept to execution, I focus on creating experiences that are not only visually engaging but also intuitive and impactful.
         </p> */}
 
