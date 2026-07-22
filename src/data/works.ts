@@ -59,8 +59,6 @@ import homie4 from "@/assets/App/homie/4.png"
 import homie5 from "@/assets/App/homie/5.png"
 import homie6 from "@/assets/App/homie/6.png"
 
-// --- App Eyesetu ---
-import dragonimage from "@/assets/web/Gemini_Generated_Image_6wvcbn6wvcbn6wvc.png"
 
 export interface WorkItem {
   id: string;
@@ -148,65 +146,4 @@ export const works: WorkItem[] = [
     category: "Mobile App",
   },
   
-  //Web temp
-  // ------------------------------------------
-    {
-    id: "branding-premium-credit-card",
-    title: "Premium Credit Card Branding",
-    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
-    image: dragonimage,
-    images: [dragonimage],
-    category: "Website",
-  },
-  //Dashboard temp
-  // ------------------------------------------
-    {
-    id: "branding-premium-credit-card",
-    title: "Premium Credit Card Branding",
-    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
-    image: dragonimage,
-    images: [dragonimage],
-    category: "Dashboard",
-  },
-  //Social Media temp
-  // ------------------------------------------
-    {
-    id: "branding-premium-credit-card",
-    title: "Premium Credit Card Branding",
-    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
-    image: dragonimage,
-    images: [dragonimage],
-    category: "Social Media",
-  },
-  //Magazines temp
-  // ------------------------------------------
-    {
-    id: "branding-premium-credit-card",
-    title: "Premium Credit Card Branding",
-    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
-    image: dragonimage,
-    images: [dragonimage],
-    category: "Magazine",
-  },
-  //eBook temp
-  // ------------------------------------------
-    {
-    id: "branding-premium-credit-card",
-    title: "Premium Credit Card Branding",
-    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
-    image: dragonimage,
-    images: [dragonimage],
-    category: "eBooks",
-  },
-  //Presentation temp
-  // ------------------------------------------
-    {
-    id: "branding-premium-credit-card",
-    title: "Premium Credit Card Branding",
-    description: "Sleek and modern packaging/branding design tailored for high-end financial products.",
-    image: dragonimage,
-    images: [dragonimage],
-    category: "Presentations",
-  },
-
 ];
