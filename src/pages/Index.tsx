@@ -31,7 +31,7 @@ const Work = [
 const socialLinks = [
   { label: "Resume", href: "https://drive.google.com/file/d/1FR4KAWwzakdJV3UUvoeZ8pWI7EjE52ln/view?usp=sharing" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/mohammad-shafaque-7109761aa/" },
-  { label: "Portfolio Figma", href: "https://drive.google.com/file/d/1Nyyr8cGy9ZReuCedZC3-lXbmItFVtoke/view?usp=sharing" },
+  // { label: "Portfolio Figma", href: "https://drive.google.com/file/d/1Nyyr8cGy9ZReuCedZC3-lXbmItFVtoke/view?usp=sharing" },
 ];
 
 const stats = [

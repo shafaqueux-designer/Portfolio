@@ -4,7 +4,8 @@ import { Mail, Phone, ExternalLink, ArrowUpRight } from "lucide-react";
 const socialLinks = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/mohammad-shafaque-7109761aa/" },
   { label: "Resume", href: "https://drive.google.com/file/d/1FR4KAWwzakdJV3UUvoeZ8pWI7EjE52ln/view?usp=sharing" },
-  { label: "Portfolio in PDF", href: "https://drive.google.com/file/d/1Nyyr8cGy9ZReuCedZC3-lXbmItFVtoke/view?usp=sharing" },];
+  // { label: "Portfolio in PDF", href: "https://drive.google.com/file/d/1Nyyr8cGy9ZReuCedZC3-lXbmItFVtoke/view?usp=sharing" },
+  ];
 
 const marqueeTools = [
   "Figma", "Framer", "Sketch", "Adobe XD", "Adobe Photoshop", " Adobe Illustrator", "Adobe InDesign",

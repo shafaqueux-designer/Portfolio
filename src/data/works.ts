@@ -39,6 +39,25 @@ import sauda6 from "@/assets/App/Sauda/6.png"
 
 // --- App Cub care ---
 import cub1 from "@/assets/App/cub care/1.png"
+import cub2 from "@/assets/App/cub care/2.png"
+import cub3 from "@/assets/App/cub care/3.png"
+import cub4 from "@/assets/App/cub care/4.png"
+import cub5 from "@/assets/App/cub care/5.png"
+
+// --- App pronod ---
+import pro1 from "@/assets/App/Pronod/1.png"
+import pro2 from "@/assets/App/Pronod/2.png"
+import pro3 from "@/assets/App/Pronod/3.png"
+import pro4 from "@/assets/App/Pronod/4.png"
+import pro5 from "@/assets/App/Pronod/5.png"
+
+// --- App homie ---
+import homie1 from "@/assets/App/homie/1.png"
+import homie2 from "@/assets/App/homie/2.png"
+import homie3 from "@/assets/App/homie/3.png"
+import homie4 from "@/assets/App/homie/4.png"
+import homie5 from "@/assets/App/homie/5.png"
+import homie6 from "@/assets/App/homie/6.png"
 
 // --- App Eyesetu ---
 import dragonimage from "@/assets/web/Gemini_Generated_Image_6wvcbn6wvcbn6wvc.png"
@@ -102,15 +121,32 @@ export const works: WorkItem[] = [
     category: "Mobile App",
   },
 
-    {
+  {
     id: "App",
     title: "Cub Care",
     description: "CubCare is a comprehensive daycare management platform built to simplify and digitize daily childcare operations. It connects parents, teachers, and administrators through a single system, enabling real-time communication, activity tracking, and efficient management. The platform ensures transparency, improves coordination, and creates a safe, engaging environment for children while reducing operational complexity for daycare centers.",
-    image: sauda1,
-    images: [sauda2, sauda3, sauda3, sauda4, sauda5, sauda6],
+    image: cub1,
+    images: [cub2, cub3, cub4, cub5],
+    category: "Mobile App",
+  },
+
+  {
+    id: "App",
+    title: "Pronod",
+    description: "Pronod is a smart dash cam companion app designed to enhance driving safety and provide complete control over in-car camera systems. It allows users to connect with their dash cam, view live footage, manage recordings, and access important driving data in real time. The platform ensures users never miss critical moments on the road while offering a seamless and secure video management experience.",
+    image: pro1,
+    images: [pro2, pro3, pro4, pro5],
     category: "Mobile App",
   },
   
+  {
+    id: "App",
+    title: "Homiestays",
+    description: "Homiestay is a community-driven accommodation platform that allows users to discover, book, and host unique stays. It bridges the gap between travelers and local hosts by offering personalized experiences beyond traditional hotels. The platform enables seamless booking for guests while empowering hosts to list properties, manage bookings, and connect with travelers—all within one unified ecosystem.",
+    image: homie1,
+    images: [homie2, homie3, homie4, homie5, homie6],
+    category: "Mobile App",
+  },
   
   //Web temp
   // ------------------------------------------
