@@ -59,6 +59,16 @@ import homie4 from "@/assets/App/homie/4.png"
 import homie5 from "@/assets/App/homie/5.png"
 import homie6 from "@/assets/App/homie/6.png"
 
+// --- App vsb ---
+import vsb1 from "@/assets/App/VSB/1.png"
+import vsb2 from "@/assets/App/VSB/2.png"
+import vsb3 from "@/assets/App/VSB/3.png"
+import vsb4 from "@/assets/App/VSB/4.png"
+import vsb5 from "@/assets/App/VSB/5.png"
+
+// --- App bkd ---
+import bkd1 from "@/assets/App/BKD/1.png"
+
 
 export interface WorkItem {
   id: string;
@@ -75,7 +85,7 @@ export const works: WorkItem[] = [
 //App temp
 // ------------------------------------------
   {
-    id: "App",
+    id: "1",
     title: "OYN - Own Your Nutritionist",
     description: "Own Your Nutritionist is a unified platform that connects users with certified nutritionists, personalized diet plans, and easy consultation booking. It also offers healthy food ordering from home kitchens, creating a simple and complete wellness experience. I designed Own Your Nutritionist, a comprehensive wellness and food-tech platform with a clean, intuitive interface and scalable architecture. The platform enables seamless nutritionist discovery along with instant and scheduled consultations through chat, voice, and video. It also supports personalized diet plans and subscription-based nutrition programs, helping users manage their health more effectively.",
     image: oyn1,
@@ -84,7 +94,7 @@ export const works: WorkItem[] = [
   },  
 
   {
-    id: "App",
+    id: "2",
     title: "Eye Setu",
     description: "This project is a comprehensive eye care platform designed to streamline the entire patient journey—from appointment booking to consultation, diagnosis, and product purchase. It integrates telemedicine, OPD management, and an e-commerce store into one seamless experience. The platform supports multiple user roles including patients, doctors, optometrists, and administrators, enabling efficient healthcare delivery while maintaining a user-friendly interface.",
     image: eyesetucover, 
@@ -93,7 +103,7 @@ export const works: WorkItem[] = [
   },
 
   {
-    id: "App",
+    id: "3",
     title: "Pulse - Dietitian",
     description: "This project focuses on building a complete nutrition consultation ecosystem that bridges the gap between clients and certified dietitians. It enables users to book consultations, track health progress, and receive personalized nutrition plans while ensuring a smooth and secure experience across mobile and web platforms. The platform supports multiple user roles including clients, dietitians, and administrators, ensuring efficient management of appointments, payments, and content.",
     image: pulse1,
@@ -102,7 +112,7 @@ export const works: WorkItem[] = [
   },
   
   {
-    id: "App",
+    id: "4",
     title: "42Kicks - Running App",
     description: "42Kicks is a comprehensive fitness and marathon companion app designed to enhance how users track, train, and stay motivated. It combines activity tracking, performance analytics, and community-driven challenges into a single seamless experience. The platform empowers users to monitor their fitness journey, participate in competitions, and discover events, while providing admins with powerful tools to manage users, content, and analytics efficiently.",
     image: kick1,
@@ -111,7 +121,7 @@ export const works: WorkItem[] = [
   },
 
   {
-    id: "App",
+    id: "5",
     title: "Sauda - IPO",
     description: "This project is a comprehensive auction discovery platform that enables users to browse categorized items, apply advanced filters, and track auctions in real time. It simplifies the auction experience by providing detailed listings, live updates, and an intuitive interface. The platform ensures users can easily discover valuable items, monitor bidding activity, and make informed decisions with complete transparency.",
     image: sauda1,
@@ -120,7 +130,7 @@ export const works: WorkItem[] = [
   },
 
   {
-    id: "App",
+    id: "6",
     title: "Cub Care",
     description: "CubCare is a comprehensive daycare management platform built to simplify and digitize daily childcare operations. It connects parents, teachers, and administrators through a single system, enabling real-time communication, activity tracking, and efficient management. The platform ensures transparency, improves coordination, and creates a safe, engaging environment for children while reducing operational complexity for daycare centers.",
     image: cub1,
@@ -129,7 +139,7 @@ export const works: WorkItem[] = [
   },
 
   {
-    id: "App",
+    id: "7",
     title: "Pronod",
     description: "Pronod is a smart dash cam companion app designed to enhance driving safety and provide complete control over in-car camera systems. It allows users to connect with their dash cam, view live footage, manage recordings, and access important driving data in real time. The platform ensures users never miss critical moments on the road while offering a seamless and secure video management experience.",
     image: pro1,
@@ -138,12 +148,30 @@ export const works: WorkItem[] = [
   },
   
   {
-    id: "App",
+    id: "8",
     title: "Homiestays",
     description: "Homiestay is a community-driven accommodation platform that allows users to discover, book, and host unique stays. It bridges the gap between travelers and local hosts by offering personalized experiences beyond traditional hotels. The platform enables seamless booking for guests while empowering hosts to list properties, manage bookings, and connect with travelers—all within one unified ecosystem.",
     image: homie1,
     images: [homie2, homie3, homie4, homie5, homie6],
     category: "Mobile App",
   },
+
+  {
+    id: "9",
+    title: "Galleria VSB",
+    description: "This project is a comprehensive auction discovery platform that enables users to browse categorized items, apply advanced filters, and track auctions in real time. It simplifies the auction experience by providing detailed listings, live updates, and an intuitive interface. The platform ensures users can easily discover valuable items, monitor bidding activity, and make informed decisions with complete transparency.",
+    image: vsb1,
+    images: [vsb2, vsb3, vsb4, vsb5],
+    category: "Mobile App",
+  },
   
+  {
+    id: "10",
+    title: "BKD - Baniya Ki Dukaan",
+    description: "BKD – Baniya Ki Dukan is a quick commerce grocery platform inspired by the traditional neighborhood store experience. It enables users to browse, order, and receive groceries and daily essentials in minutes. The app combines speed, simplicity, and familiarity, offering a digital version of the trusted local “baniya” shop with modern features like real-time tracking and seamless payments.",
+    image: bkd1,
+    images: [vsb2, vsb3, vsb4, vsb5],
+    category: "Mobile App",
+  },
+
 ];
