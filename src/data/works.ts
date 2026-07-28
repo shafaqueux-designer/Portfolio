@@ -68,6 +68,45 @@ import vsb5 from "@/assets/App/VSB/5.png"
 
 // --- App bkd ---
 import bkd1 from "@/assets/App/BKD/1.png"
+import bkd2 from "@/assets/App/BKD/2.png"
+import bkd3 from "@/assets/App/BKD/3.png"
+import bkd4 from "@/assets/App/BKD/4.png"
+import bkd5 from "@/assets/App/BKD/5.png"
+import bkd6 from "@/assets/App/BKD/6.png"
+
+// --- App 4Way ---
+import way1 from "@/assets/App/4way/1.png"
+import way2 from "@/assets/App/4way/2.png"
+import way3 from "@/assets/App/4way/3.png"
+import way4 from "@/assets/App/4way/4.png"
+import way5 from "@/assets/App/4way/5.png"
+import way6 from "@/assets/App/4way/6.png"
+
+// --- App sanesa ---
+import san1 from "@/assets/App/sanesa/1.png"
+import san2 from "@/assets/App/sanesa/2.png"
+import san3 from "@/assets/App/sanesa/3.png"
+import san4 from "@/assets/App/sanesa/4.png"
+import san5 from "@/assets/App/sanesa/5.png"
+import san6 from "@/assets/App/sanesa/6.png"
+
+// --- App devalaya ---
+import dev1 from "@/assets/App/Devalaya/1.png"
+import dev2 from "@/assets/App/Devalaya/2.png"
+import dev3 from "@/assets/App/Devalaya/3.png"
+import dev4 from "@/assets/App/Devalaya/4.png"
+import dev5 from "@/assets/App/Devalaya/5.png"
+import dev6 from "@/assets/App/Devalaya/6.png"
+
+// --- App ICS ---
+import ics1 from "@/assets/App/ics/1.png"
+import ics2 from "@/assets/App/ics/2.png"
+import ics3 from "@/assets/App/ics/3.png"
+import ics4 from "@/assets/App/ics/4.png"
+import ics5 from "@/assets/App/ics/5.png"
+import ics6 from "@/assets/App/ics/6.png"
+
+
 
 
 export interface WorkItem {
@@ -170,7 +209,43 @@ export const works: WorkItem[] = [
     title: "BKD - Baniya Ki Dukaan",
     description: "BKD – Baniya Ki Dukan is a quick commerce grocery platform inspired by the traditional neighborhood store experience. It enables users to browse, order, and receive groceries and daily essentials in minutes. The app combines speed, simplicity, and familiarity, offering a digital version of the trusted local “baniya” shop with modern features like real-time tracking and seamless payments.",
     image: bkd1,
-    images: [vsb2, vsb3, vsb4, vsb5],
+    images: [bkd2, bkd3, bkd4, bkd5, bkd6],
+    category: "Mobile App",
+  },
+
+  {
+    id: "11",
+    title: "4 Way",
+    description: "4Way is a social fitness networking platform designed to bring people together through shared fitness interests. It enables users to discover nearby events, connect with like-minded individuals, and participate in real-world activities using an interactive map-based experience. The platform combines location intelligence, social engagement, and event management to create a seamless and engaging fitness community ecosystem.",
+    image: way1,
+    images: [way2, way3, way4, way5, way6],
+    category: "Mobile App",
+  },
+
+  {
+    id: "12",
+    title: "Devalaya",
+    description: "Devalaya is a spiritual and astrology platform designed to provide users with instant access to astrologers, devotional experiences, and personalized spiritual guidance. The app combines astrology consultations, chat and call features, puja services, and spiritual content into one connected ecosystem—making traditional guidance more accessible in the digital age.",
+    image: dev1,
+    images: [dev2, dev3, dev4, dev6, dev5],
+    category: "Mobile App",
+  },
+
+  {
+    id: "13",
+    title: "Sanesa",
+    description: "Sanesa is a farm-to-home organic grocery platform designed to make healthy eating simple and accessible. It allows users to order fresh, organically grown fruits and vegetables directly from trusted sources. The platform focuses on quality, transparency, and convenience—bringing chemical-free produce to everyday consumers through a seamless digital experience.",
+    image: san1,
+    images: [san2, san3, san4, san5, san6],
+    category: "Mobile App",
+  },
+
+  {
+    id: "14",
+    title: "Indian Cancer Society",
+    description: "Rise Against Cancer is a comprehensive cancer awareness and support platform developed to bridge the gap between information and accessibility. It provides reliable, easy-to-understand content about cancer, helping users make informed decisions about prevention, detection, and care. The app is designed for patients, caregivers, and the general public, offering a centralized space for education, guidance, and emotional support.",
+    image: ics1,
+    images: [ics2, ics3, ics4, ics5, ics6],
     category: "Mobile App",
   },
 
