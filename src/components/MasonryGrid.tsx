@@ -96,11 +96,9 @@ const MasonryGrid = ({ items }: MasonryGridProps) => {
 
               {/* Media section — image fills left, vertically centered */}
               <div className="flex-1 min-h-0 overflow-hidden bg-secondary/20 flex items-center justify-center p-4 sm:p-6 lg:p-8">
-                {selected.pdfUrl ? (
-                  <PdfViewer url={selected.pdfUrl} />
-                ) : (
+                
                   <ImageCarousel item={selected} />
-                )}
+                
               </div>
 
               {/* Info panel — fixed, no scroll */}
@@ -472,7 +470,7 @@ const PdfViewer = ({ url }: { url: string }) => (
 /* ─── Masonry Card ─── */
 const MasonryCard = ({ item, onClick }: { item: WorkItem; onClick: () => void }) => {
   const [loaded, setLoaded] = useState(false);
-  const hasExtras = !!(item.images?.length || item.pdfUrl || item.link);
+  const hasExtras = !!(item.images?.length || item.link);
 
   return (
     <motion.div
@@ -490,7 +488,7 @@ const MasonryCard = ({ item, onClick }: { item: WorkItem; onClick: () => void })
         {hasExtras && (
           <span className="rounded-full bg-card/80 backdrop-blur-sm border border-border px-2 py-1 text-[10px] font-medium text-muted-foreground flex items-center gap-1">
             {item.images?.length ? `+${item.images.length}` : null}
-            {item.pdfUrl ? <FileText size={10} /> : null}
+          {/* {item.pdfUrl ? <FileText size={10} /> : null} */}
             {item.link ? <ExternalLink size={10} /> : null}
           </span>
         )}
@@ -503,6 +501,10 @@ const MasonryCard = ({ item, onClick }: { item: WorkItem; onClick: () => void })
         onLoad={() => setLoaded(true)}
         loading="lazy"
       />
+
+       <div className="absolute top-3 right-3 bg-background/90 backdrop-blur-md border border-border/80 px-3 py-1 rounded-full text-xs font-medium text-primary shadow-sm z-10">
+                      {item.tag}
+                    </div>
 
       {!loaded && (
         <div className="aspect-[3/4] w-full bg-secondary animate-pulse rounded-lg" />

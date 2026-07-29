@@ -3,6 +3,23 @@ import { motion } from "framer-motion";
 import { ArrowRight, Mail, ExternalLink, Sparkles } from "lucide-react";
 // import Works from "./Works";
 
+import eyesetucover from "@/assets/App/Eye Setu/1.png";
+import ics1 from "@/assets/App/ics/1.png";
+import bkd1 from "@/assets/App/BKD/1.png";
+import pro1 from "@/assets/App/Pronod/1.png";
+
+const AppleIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.09c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.8 1.44-.61.71-1.14 1.86-1 2.97 1.08.08 2.16-.57 2.81-1.37z" />
+  </svg>
+);
+
+const PlayStoreIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M3 20.5v-17c0-.55.35-.95.84-1.03.17-.03.36 0 .52.1l11.75 8.5-4.22 4.22L3.84 21.43c-.16.1-.35.13-.52.1-.49-.08-.84-.48-.84-1.03zm14.15-8.43L20 10.38c.67.38.67 1.86 0 2.24l-2.85 1.69-3.27-3.24 3.27-3.00zM4.77 2.86l9.36 9.36-2.86 2.86L4.77 2.86zm9.36 12.08l2.86 2.86-9.36 9.36 6.5-12.22z" />
+  </svg>
+);
+
 const skills = [
   "Figma", "Framer", "Sketch", "Adobe XD", "Adobe Photoshop", " Adobe Illustrator", "Adobe InDesign",
   "Canva", "Notion", "Protopie", "Miro", "Zeplin", "Slack", "Microsoft PowerPoint"
@@ -10,6 +27,35 @@ const skills = [
 
 const coreSkills = [
   "Data Analysis", "Product Strategy", "User Research", "User Personas", "Information Architecture", "User Flows", "Wireframing", "Prototyping", "Interaction Design", "Usability Testing", "A/B Testing", "Design Systems", "Responsive Design", "Accessibility", "Visual Design", "Typography", "Color Theory", "Layout Design", "Brand Identity", "Creative Problem-Solving", "Design Thinking", "Cross-functional Collaboration", "Stakeholder Communication", "Presentation Skills", "Attention to Detail"
+];
+const projects = [
+  {
+    title: "EyeSetu (Healthcare Platform – User, Doctor & Optometrist Apps)",
+    category: "Healthcare Platform",
+    image: eyesetucover,
+    appStore: "https://apps.apple.com/in/app/eyesetu/id6765830146",
+    description: "This project is a comprehensive eye care platform designed to streamline the entire patient journey—from appointment booking to consultation, diagnosis, and product purchase. It integrates telemedicine, OPD management, and an e-commerce store into one seamless experience. The platform supports multiple user roles including patients, doctors, optometrists, and administrators, enabling efficient healthcare delivery while maintaining a user-friendly interface."
+  },
+  {
+    title: "Rise Against Cancer (ICS)",
+    category: "Cancer Awareness & Support",
+    image: ics1,
+    appStore: "https://apps.apple.com/in/iphone/search?term=rise%20against%20cancer",
+    description: "Rise Against Cancer is a comprehensive cancer awareness and support platform developed to bridge the gap between information and accessibility. It provides reliable, easy-to-understand content about cancer, helping users make informed decisions about prevention, detection, and care. The app is designed for patients, caregivers, and the general public, offering a centralized space for education, guidance, and emotional support."
+  },
+  {
+    title: "OnBKD - Grocery Ordering App",
+    category: "Quick Commerce",
+    image: bkd1,
+    playStore: "https://play.google.com/store/apps/details?id=com.bkdapp.bkd_app&hl=en_IN",
+    description: "BKD – Baniya Ki Dukan is a quick commerce grocery platform inspired by the traditional neighborhood store experience. It enables users to browse, order, and receive groceries and daily essentials in minutes. The app combines speed, simplicity, and familiarity, offering a digital version of the trusted local “baniya” shop with modern features like real-time tracking and seamless payments."
+  },
+  // {
+  //   title: "Pronod - iOS Dashcam Streaming App",
+  //   category: "Smart Automotive",
+  //   image: pro1,
+  //   description: "Developed an iOS dashcam streaming application using Provider, implementing real-time video streaming with VLC/media_kit, network handling over Wi-Fi/4G, REST API integration, Google Maps tracking."
+  // },
 ];
 
 const education = [
@@ -161,6 +207,82 @@ const Index = () => {
             </div>
           </div>
         </motion.div>
+      </motion.section>
+
+<motion.section
+        className="mt-24"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-80px" }}
+        transition={{ duration: 0.6 }}
+      >
+        <h2 className="text-2xl font-display font-semibold text-foreground mb-6">
+          Featured Projects
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {projects.map((proj) => {
+            const Icon = proj.image;
+            return (
+              <div
+                key={proj.title}
+                className="rounded-xl border border-border bg-card overflow-hidden hover:border-primary/40 transition-all group flex flex-col justify-between"
+              >
+                {proj.image ? (
+                  <div className="h-96 w-full border-b border-border/40 relative overflow-hidden bg-card">
+                    <img
+                      src={proj.image}
+                      alt={proj.title}
+                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute top-3 right-3 bg-background/90 backdrop-blur-md border border-border/80 px-3 py-1 rounded-full text-xs font-medium text-primary shadow-sm z-10">
+                      {proj.category}
+                    </div>
+                  </div>
+                ) : null}
+                <div className="p-6 flex flex-col justify-between flex-1">
+                  <div>
+                  
+                    <h3 className="font-display font-semibold text-foreground text-lg mb-2">
+                      {proj.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {proj.description}
+                    </p>
+                  </div>
+
+                  {(proj.appStore || proj.playStore) && (
+                    <div className="mt-5 flex flex-wrap gap-2 pt-3 border-t border-border/40">
+                      {proj.appStore && (
+                        <a
+                          href={proj.appStore}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary hover:bg-secondary/80 text-foreground text-xs font-medium border border-border transition-colors group/btn"
+                        >
+                          <AppleIcon className="w-4 h-4 text-foreground group-hover/btn:text-primary transition-colors" />
+                          <span>App Store</span>
+                          <ExternalLink size={11} className="opacity-60" />
+                        </a>
+                      )}
+                      {proj.playStore && (
+                        <a
+                          href={proj.playStore}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary hover:bg-secondary/80 text-foreground text-xs font-medium border border-border transition-colors group/btn"
+                        >
+                          <PlayStoreIcon className="w-4 h-4 text-emerald-500 transition-colors" />
+                          <span>Google Play</span>
+                          <ExternalLink size={11} className="opacity-60" />
+                        </a>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </motion.section>
 
 {/* 

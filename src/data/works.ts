@@ -117,6 +117,7 @@ export interface WorkItem {
   images?: any[];
   category: string;
   link?: string;
+  tag?: string;
 }
 
 export const works: WorkItem[] = [
@@ -130,6 +131,7 @@ export const works: WorkItem[] = [
     image: oyn1,
     images: [oyn2, oyn3, oyn4, oyn5, oyn6],
     category: "Mobile App",
+    tag: "Health Care"
   },  
 
   {
