@@ -106,6 +106,22 @@ import ics4 from "@/assets/App/ics/4.png"
 import ics5 from "@/assets/App/ics/5.png"
 import ics6 from "@/assets/App/ics/6.png"
 
+// --- ebook 1 ---
+import eb1 from "@/assets/ebook/1.png"
+import eb2 from "@/assets/ebook/2.png"
+import eb3 from "@/assets/ebook/3.png"
+import eb4 from "@/assets/ebook/4.png"
+import eb5 from "@/assets/ebook/5.png"
+import eb6 from "@/assets/ebook/6.png"
+import eb7 from "@/assets/ebook/7.png"
+import eb8 from "@/assets/ebook/8.png"
+import eb9 from "@/assets/ebook/9.png"
+import eb10 from "@/assets/ebook/10.png"
+import eb11 from "@/assets/ebook/11.png"
+import eb12 from "@/assets/ebook/12.png"
+import eb13 from "@/assets/ebook/13.png"
+import eb14 from "@/assets/ebook/14.png"
+import eb15 from "@/assets/ebook/15.png"
 
 
 
@@ -150,6 +166,7 @@ export const works: WorkItem[] = [
     image: pulse1,
     images: [pulse2, pulse3, pulse4, pulse5, pulse6],
     category: "Mobile App",
+    tag: "Eye Care"
   },
   
   {
@@ -159,6 +176,7 @@ export const works: WorkItem[] = [
     image: kick1,
     images: [kick2, kick3, kick4, kick5, kick6],
     category: "Mobile App",
+    tag: "Running"
   },
 
   {
@@ -168,6 +186,7 @@ export const works: WorkItem[] = [
     image: sauda1,
     images: [sauda2, sauda3, sauda3, sauda4, sauda5, sauda6],
     category: "Mobile App",
+    tag: "Trading"
   },
 
   {
@@ -177,6 +196,7 @@ export const works: WorkItem[] = [
     image: cub1,
     images: [cub2, cub3, cub4, cub5],
     category: "Mobile App",
+    tag: "School Mannagement"
   },
 
   {
@@ -186,6 +206,7 @@ export const works: WorkItem[] = [
     image: pro1,
     images: [pro2, pro3, pro4, pro5],
     category: "Mobile App",
+    tag: "IOT Dashcam"
   },
   
   {
@@ -195,6 +216,7 @@ export const works: WorkItem[] = [
     image: homie1,
     images: [homie2, homie3, homie4, homie5, homie6],
     category: "Mobile App",
+    tag: "Hospitality"
   },
 
   {
@@ -204,6 +226,7 @@ export const works: WorkItem[] = [
     image: vsb1,
     images: [vsb2, vsb3, vsb4, vsb5],
     category: "Mobile App",
+    tag: "Auction"
   },
   
   {
@@ -213,6 +236,7 @@ export const works: WorkItem[] = [
     image: bkd1,
     images: [bkd2, bkd3, bkd4, bkd5, bkd6],
     category: "Mobile App",
+    tag: "Quick Commerce"
   },
 
   {
@@ -222,6 +246,7 @@ export const works: WorkItem[] = [
     image: way1,
     images: [way2, way3, way4, way5, way6],
     category: "Mobile App",
+    tag: "Running"
   },
 
   {
@@ -231,6 +256,7 @@ export const works: WorkItem[] = [
     image: dev1,
     images: [dev2, dev3, dev4, dev6, dev5],
     category: "Mobile App",
+    tag: "Astrologer"
   },
 
   {
@@ -240,6 +266,7 @@ export const works: WorkItem[] = [
     image: san1,
     images: [san2, san3, san4, san5, san6],
     category: "Mobile App",
+    tag: "Quick Commerce"
   },
 
   {
@@ -249,6 +276,47 @@ export const works: WorkItem[] = [
     image: ics1,
     images: [ics2, ics3, ics4, ics5, ics6],
     category: "Mobile App",
+    tag: "Cancer Awarness & Support"
+  },
+
+  {
+    id: "15",
+    title: "Professional eBook Design",
+    description: "Modern and visually engaging eBook designs created with a focus on readability, clean layouts, and compelling visuals. Each publication is carefully structured to deliver content in a professional and impactful way across digital platforms.",
+    image: eb1,
+    images: [eb1, eb2, eb3, eb4],
+    category: "eBook",
+    tag: "Publication Design"
+  },
+
+  {
+    id: "17",
+    title: "Custom eBook Layout Design",
+    description: "Custom-designed eBooks featuring visually appealing page layouts, consistent branding, and user-friendly formatting. Designed to present content clearly while maintaining a polished and professional appearance.",
+    image: eb8,
+    images: [eb8, eb9, eb10, eb11],
+    category: "eBook",
+    tag: "Publication Design"
+  },
+
+  {
+    id: "16",
+    title: "Creative Digital Publications",
+    description: "Thoughtfully designed digital publications that combine typography, imagery, and structured layouts to create an engaging reading experience. Suitable for educational, business, marketing, and informational content.",
+    image: eb5,
+    images: [eb5, eb6, eb6, eb7],
+    category: "eBook",
+    tag: "Publication Design"
+  },
+
+  {
+    id: "18",
+    title: "Interactive Publication Design",
+    description: "High-quality publication designs that balance aesthetics and functionality. From guides and catalogs to manuals and magazines, each project is crafted to provide an engaging and seamless reading experience.",
+    image: eb12,
+    images: [eb12, eb13, eb14, eb15],
+    category: "eBook",
+    tag: "Publication Design"
   },
 
 ];
